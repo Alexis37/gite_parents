@@ -1,0 +1,211 @@
+/* idem! */
+
+/* [class*="col-"] {
+	border: 2px solid black;
+  	border-radius: 6px;
+}*/
+
+
+[class*="col-"] {
+  	text-align: center;
+}
+
+#welcome
+{
+	margin-top: 15px;
+	color: #f62;
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 21px;
+	font-weight: 300;
+
+}
+
+.container-fluid {
+  margin-top: 72px;
+}
+
+.img1
+{
+	margin-top: 50px;
+}
+a
+{
+	text-decoration: none;
+	color: #666;
+	font-family: 'Lato', arial, sans-serif;
+}
+
+header
+{
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #666;	 
+}
+
+h1
+{
+	color: #f62;
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+h2
+{
+	color: #f62;
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 27px;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+p
+{
+	color: #666;
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.blanc
+{
+	color: white;
+	text-shadow:0px 2px 4px black;
+}
+
+#block1
+{
+  	background: url(../img/bg_fleurs3.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+  	padding-top: 10px;
+	padding-bottom: 55px;
+}
+
+#block2
+{
+  	background: url(../img/bg_gm.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+  	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+li
+{
+	display: inline-block;
+	height: 72px;
+}
+
+a:hover { 
+    color: #f62;
+	text-decoration: none;
+}
+
+a:active { 
+    color: #f62;
+	text-decoration: none;
+}
+
+a.selected
+{
+    color: #f62;
+	text-decoration: none;
+
+}
+
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	height: 72px;
+}
+.nav
+{
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: 300;
+	margin-right: 5px;
+	margin-top: 20px;
+	display: inline-block;
+	height: 72px;
+}
+
+.navbar-default 
+{
+	background-color: white;
+}
+
+#colnav
+{
+	height: 72px;
+	text-align: left;
+}
+
+
+nav
+{
+	background-color: white;
+	padding-top: 10px;
+	border-bottom: 1px solid rgb(202,202,202);
+}
+
+.finpart1
+{
+	border-bottom: 1px solid rgb(202,202,202);	
+	box-shadow: 0px 1px 1px rgb(202,202,202);
+}
+
+.finpart2
+{
+	border-bottom: 1px solid rgb(202,202,202);	
+	margin-bottom: 25px;
+	margin-top: 50px;
+	box-shadow: 0px 1px 1px rgb(202,202,202);
+}
+
+textarea
+{
+	width: 30%;
+	height: 100px;
+}
+
+.container-fluid
+{
+	padding-left:0px; 
+	padding-right:0px;
+}
+
+.content
+{
+	display: inline-block;
+    vertical-align: middle;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.symbol
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.thumbnail
+{
+	height: 160px;
+	width: 160px;
+	margin-bottom: 0px;
+
+}
+
+.btn-primary
+{
+	background-color: #f62;
+	border-color: #f62;
+}
+
+.btn-primary:hover
+{
+	background-color: rgb(240,130,40);
+	border-color: rgb(240,130,40);
+}
