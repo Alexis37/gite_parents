@@ -7,3 +7,7 @@ $(function() {
         event.preventDefault();
     });
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
