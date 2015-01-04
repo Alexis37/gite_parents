@@ -37,16 +37,19 @@
 
 .img1
 {
-	margin-top: 50px;
+	margin-top: 5px;
 }
-
-
 
 .navbar-default .navbar-nav>li>a, a
 {
 	text-decoration: none;
 	color: #666;
 	font-family: 'Lato', arial, sans-serif;
+}
+
+.mail{
+	text-decoration: underline;
+	color: #f62;
 }
 
 header
@@ -74,6 +77,15 @@ h2
 	margin-top: 10px;
 }
 
+h3
+{
+	color: #666;
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
 p
 {
 	color: #666;
@@ -92,7 +104,7 @@ p
 {
   	background: url(../img/bg_fleurs3.jpg) no-repeat center center fixed;
   	background-size: cover;
-  	padding-top: 10px;
+  	padding-top: 72px;
 	padding-bottom: 55px;
 }
 
@@ -184,6 +196,22 @@ nav
 	box-shadow: 0px 1px 1px rgb(202,202,202);
 }
 
+strong
+{
+	color: #f62;
+}
+
+.finpart3
+{
+	border-bottom: 1px solid rgb(202,202,202);
+	margin-bottom: 25px;
+	box-shadow: 0px 1px 1px rgb(202,202,202);
+}
+
+.iframe{
+	margin-top: 50px;
+}
+
 textarea
 {
 	width: 30%;
@@ -202,6 +230,23 @@ textarea
     vertical-align: middle;
     float: none;
     margin-bottom: 20px;
+    text-align: left;
+}
+
+.desc
+{
+	padding-right: 60px;
+	text-align: justify;
+}
+
+#le_gite
+{
+	margin-bottom: 20px;
+}
+
+#autour_de_nous
+{
+	margin-bottom: 20px;
 }
 
 .symbol
@@ -213,12 +258,23 @@ textarea
 
 .thumbnail
 {
-	height: 160px;
-	width: 160px;
+	height: 133px;
+	width: 200px;
 	display: inline-block;
 	text-align: center;
+
 }
 
+.lightbox{
+	height: 138px;
+	width: 201px;
+	padding: 0px;
+}
+
+.img-thumbnail{
+	display: inline-block;
+	text-align: center;	
+}
 
 .btn-primary
 {
