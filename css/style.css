@@ -40,12 +40,35 @@
 	margin-top: 5px;
 }
 
-.navbar-default .navbar-nav>li>a, a
+.navbar-default .navbar-nav>li>a, 
 {
 	text-decoration: none;
 	color: #666;
 	font-family: 'Lato', arial, sans-serif;
 }
+
+
+h2>a,p>a{
+	text-decoration: none;
+	color: #f62;
+}
+
+h2>a:hover,p>a:hover {
+    color: #f62;
+	text-decoration: underline;
+}
+
+h2>a:active,p>a:active {
+    color: #f62;
+	text-decoration: underline;
+}
+
+h2>a:visited, p>a:visited
+{
+    color: #f62;
+	text-decoration: underline;
+}
+
 
 .mail{
 	text-decoration: underline;
